@@ -189,9 +189,18 @@ footer{
 
 /* media query */
 @media screen and (max-width:576px) {
-    .skills-all{
+    .skills-all  {
         flex-direction: column;
-    
+    }
+    nav ,nav>ul {
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .header img{
+        width: 100%;
+        margin-top: 20px;
     }
     .secondary-bg{
         flex-direction: column;
