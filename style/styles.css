@@ -180,3 +180,24 @@ footer{
     font-size: 16ox;
     border: none;
 }
+
+
+/* responsive media query */
+.hide{
+    display: none;
+}
+
+/* media query */
+@media screen and (max-width:576px) {
+    .skills-all{
+        flex-direction: column;
+    
+    }
+    .secondary-bg{
+        flex-direction: column;
+    }
+    .about-item{
+        flex-direction: column;
+    }
+    
+}
